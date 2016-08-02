@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #999999;
+}
+header{
+    height: 50px;
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header p{
+    font-size: 20px;
+    color: #eeeeee;
+}
+li{
+ /*text-decoration: none;*/
+    list-style-type: none;
+}
+nav{
+    background-color: #eeeeee;
+    overflow: hidden;
+}
+nav li{
+    height: 50px;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    text-align: center;
+    width: 20%;
+    float: left;
+    line-height: 50px;
+    /*background-color: #ffcc00;*/
+}
+.act{
+    border-bottom: 4px solid #ffcc00;
+    /*padding-bottom: 5px;*/
+}
+.img{
+    width: 100%;
+    background-color: cornflowerblue;
+    height: 300px;
+}
+.clear{
+    height:0;
+    font-size:0;
+    clear:both;
+}
+.tags{
+    overflow: hidden;
+    background-color: #eeeeee;
+}
+.tags li{
+    height: 90px;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    text-align: center;
+    width: 20%;
+    float: left;
+    line-height: 50px;
+    /*background-color: #ffcc00;*/
+}
+.tags span{
+    display: block;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background-color: deeppink;
+    margin: 10px auto 0;
+}
+.tab_box{
+    background-color: #eeeeee;
+    overflow: hidden;
+    border-top: 2px solid #333333;
+}
+.tab_box li{
+    height: 80px;
+    display: block;
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+.tab_box span{
+    display: block;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background-color: deeppink;
+    margin: 10px auto 10px;
+}
+.tab_box-center{
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+}
+.module{
+    margin-top: 10px ;
+    overflow: hidden;
+    padding: 10px;
+    background-color: #eeeeee;
+}
+.module_content{
+    margin-top: 10px;
+    border-top: 2px solid #333333;
+}
+.modele_left{
+    margin-top: 10px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: lime;
+}
+.modele_right{
+    word-wrap: break-word;
+    margin: 10px 0 0 10px;
+    float: left;
+    width: 200px;
+}
+.modele_right span{
+    color: #cccccc;
+    display: block;
+    margin-top: 30px;
+}
+.module_list{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.module_list li{
+    /*margin: 10px 0;*/
+    width: 100px;
+    float: left;
+    height: 50px;
+    border: 1px solid #ffcc00;
+}
+/*.module_list span{}*/
